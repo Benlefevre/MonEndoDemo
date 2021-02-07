@@ -1,33 +1,404 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Keynote</title>
-        <meta name="viewport" content="initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <link rel="stylesheet" type="text/css" href="assets/player/styles.css">
-    </head>
-    <body id="body" bgcolor="black">
-        <div id="stageArea">
-            <div id="stage" class="stage">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Mon Endo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.ico">
+
+    <!--Google Font link-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+
+
+
+    <!--For Plugins external css-->
+    <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+
+    <!-- Preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
             </div>
-            <div id="hyperlinkPlane" class="stage">
+        </div>
+    </div>
+    <!--End off Preloader -->
+
+
+    <div class="culmn">
+        <!--Home page style-->
+
+
+        <nav class="navbar navbar-default bootsnav navbar-fixed white no-background">
+            <div class="container">
+
+                <!-- Start Atribute Navigation -->
+                <!--<div class="attr-nav">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>-->
+                <!-- End Atribute Navigation -->
+
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#brand">
+                        <img src="assets/images/monEndoWhite.png" class="logo logo-display" alt="">
+                        <img src="assets/images/monEndoColor.png" class="logo logo-scrolled" alt="">
+                    </a>
+
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- navbar menu -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">Acceuil</a></li>
+                        <li><a href="#screen_area">Fonctionnalités</a></li>
+                        <li><a href="#download">Tester</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
             </div>
-        </div>
-        <div id="slideshowNavigator">
-        </div>
-        <div id="slideNumberControl">
-        </div>
-        <div id="slideNumberDisplay">
-        </div>
-        <div id="helpPlacard">
-        </div>
-        <div id="waitingIndicator">
-            <div id="waitingSpinner">
+        </nav>
+
+        <!--Home Sections-->
+
+        <section id="home" class="home">
+            <div class="container">
+                <div class="row">
+                    <div class="main_home">
+                        <div class="col-md-6">
+                            <div class="home_text">
+                                <h1 class="text-white">Mon Endo</h1>
+                            </div>
+
+                            <div class="home_btns m-top-40">
+                                <p>
+                                    L'endométriose touche malheureusement
+                                    <span style="color:#A57FDC; font-size: 2.25rem;">1</span>
+                                    femme sur 10 en âge de procréer.</br>
+                                    Aujourd’hui, l’endométriose est diagnostiquée, souvent par hasard, avec un
+                                    <span style="color:#A57FDC; font-size: 1.25rem;">retard moyen de sept années</span>,
+                                    durant lesquelles la maladie a eu le temps de causer des dommages notables à
+                                    différents organes.</br>
+                                    Poser un diagnostic est encore très compliqué aujourd'hui car malheuresement il n'y
+                                    a pas une endométriose mais des endométioses.</br>
+                                    La maladie se présente sous tellement de formes différentes que seul un
+                                    interrogatoire
+                                    précis réalisé par un médecin pourra éventuellement l'orienter vers l'Endométriose.
+                                    </br>
+                                    </br>
+                                    Mon Endo est une application a destination des femmes atteintes d'endométriose.</br>
+                                    L'ensemble des fonctionnalités peuvent cependant être utiles à toutes les femmes.
+                                </p>
+                                <!--
+                                    <a href="#features" class="btn btn-danger m-top-20">Fonctonnalités</a>
+                                    <a href="#download" class="btn btn-danger m-top-20">Démo</a>
+                                -->
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="phone_one phone_attr1 text-center sm-m-top-50">
+                                <video src="assets/images/Dashboard1.m4v" width="295" type="video/mp4" alt=""
+                                    autoplay="true" muted controls>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="scrooldown">
+                        <a href="#features"><i class="fa fa-chevron-down"></i></a>
+                    </div>
+
+                </div>
+                <!--End off row-->
             </div>
-        </div>
-        <script type="text/javascript" src="assets/player/pdfjs/bcmaps.js"></script></body>
-        <script type="text/javascript" src="assets/player/pdfjs/web/compatibility.js"></script></body>
-        <script type="text/javascript" src="assets/player/pdfjs/pdf.js"></script></body>
-        <script type="text/javascript" src="assets/player/main.js"></script></body>
-    </body>
+            <!--End off container -->
+        </section>
+        <!--End off Home Sections-->
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="main_drag roomy-50">
+                        <div class="col-md-12">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"
+                                        style="background-image:url(assets/images/Screenshot_20210105-151639.png)">
+                                    </div>
+                                    <div class="swiper-slide"
+                                        style="background-image:url(assets/images/Screenshot_20210105-151732.png)">
+                                    </div>
+                                    <div class="swiper-slide"
+                                        style="background-image:url(assets/images/Screenshot_20210105-151758.png)">
+                                    </div>
+                                    <div class="swiper-slide"
+                                        style="background-image:url(assets/images/Screenshot_20210105-151822.png)">
+                                    </div>
+                                    <div class="swiper-slide"
+                                        style="background-image:url(assets/images/Screenshot_20210105-151842.png)">
+                                    </div>
+                                </div>
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--screen short section-->
+
+        <section id="screen_area" class="screen_area">
+            <div class="container">
+                <div class="row">
+                    <div class="main_screen">
+                        <div class="col-md-8 col-md-offset-2 col-sm-12">
+                            <div class="head_title text-center">
+                                <h2>Fonctionnalités</h2>
+                                <h5>Mon Endo est pensé de façon à ce que l'ensemble des fonctionnalités puissent aider les femmes dans leur quotidien.</h5>
+                            </div>
+                        </div>
+
+                        <!-- Screen01-->
+                        <div class="screen01 roomy-50">
+                            <div class="col-md-6">
+                                <div class="screen01_img text-center">
+                                    <video src="assets/images/Pain1.m4v" type="video/mp4" muted width="295" controls>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="screen01_content m-top-100">
+                                    <div class="screen01_content_img ">
+                                    </div>
+                                    <h2 class="m-top-40">Enregistrement des données liées aux douleur</h2>
+                                    <p class="m-top-20">
+                                        L'application permet de centraliser l'enregistrement de vos données et vous
+                                        permet ainsi de visualiser
+                                        l'ensemble de vos enregistrement afin de mettre en lumière les facteurs
+                                        aggravant vos douleurs.</br>
+                                        Il vous sera ainsi plus aisé de transmettre des données
+                                        précises lors de rendez-vous médicaux.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End off Screen01-->
+
+                        <!-- Screen02-->
+                        <div class="screen02 roomy-50 m-top-100">
+                            <div class="col-md-6 col-md-push-6">
+                                <div class="screen02_img text-center">
+                                    <video src="assets/images/Treatment2.m4v" type="video/mp4" muted width="295"
+                                        controls></video>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-md-pull-6">
+                                <div class="screen02_content m-top-100">
+                                    <h2 class="m-top-40">Suivi de traitement</h2>
+                                    <p class="m-top-20">
+                                        Vous pourrez retrouver un suivi visuel de votre traitement contraceptif et
+                                        l'adapter à votre plaquette.</br>
+                                        Pour une prise en continu, il est possible de représenter une tablette de 28,21
+                                        + 7 placebos, 14, 12 et 10 pilules.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End off Screen02-->
+
+                        <!-- Screen03-->
+                        <div class="screen03 roomy-50 m-top-100">
+                            <div class="col-md-6">
+                                <div class="screen03_img text-center">
+                                    <video src="assets/images/Fertility1.m4v" type="video/mp4" muted width="295"
+                                        controls></video>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="screen03_content m-top-100">
+                                    <h2 class="m-top-40">Suivi du cycle menstruel</h2>
+                                    <p class="m-top-20">Vous retrouver via un calendrier les différentes phases
+                                        théoriques de votre
+                                        cycle menstruel:</br>
+                                        <span style="color: #FFAFE9;"> Menstruation </br> </span>
+                                        <span style="color: #029195">Période de fécondité</br> </span>
+                                        <span style="color: #FFA102">Jour d'ovulation</br></span>
+                                        Vous pourrez aussi enregistrer votre température corporelle afin de définir plus
+                                        précisement votre ovulation grâce au graphique de représentation.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End off Screen03-->
+
+                        <!-- Screen04-->
+                        <div class="screen02 roomy-50 m-top-100">
+                            <div class="col-md-6 col-md-push-6">
+                                <div class="screen02_img text-center">
+                                    <video src="assets/images/Comment1.m4v" type="video/mp4" muted width="295"
+                                        controls></video>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-md-pull-6">
+                                <div class="screen02_content m-top-100">
+                                    <h2 class="m-top-40">Recherche d'un médecin</h2>
+                                    <p class="m-top-20">
+                                        L'application vous permet de voir l'ensemble des médecins généralistes
+                                        ou gynécologue autour de votre position dans un rayon de 5kms ou de réaliser une
+                                        recherche sur la localité de votre choix.</br>
+                                        Vous pourrez noter et laisser un commentaire afin d'aider les autres
+                                        utilisatrices à trouver un médecin sensibilisé à cette pathologie
+                                        et à même de les accompagner dans leur diagnostic.</br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End off Screen04-->
+
+                        <!-- Screen05-->
+                        <div class="screen01 roomy-50">
+                            <div class="col-md-6">
+                                <div class="screen01_img text-center">
+                                    <video src="assets/images/DashboardDetails.m4v" type="video/mp4" muted width="295" controls>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="screen01_content m-top-100">
+                                    <div class="screen01_content_img ">
+                                    </div>
+                                    <h2 class="m-top-40">Visualisation des données par catégorie et par période </h2>
+                                    <p class="m-top-20">
+                                        Vous pourrez consulter vos données enregistrées sous formes de graphiques afin d'identifier les facteurs pouvant 
+                                        engendrer des douleurs ou au contraire les pratiques à intensifier afin de diminuer vos douleurs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End off Screen05-->
+
+
+                    </div>
+                </div>
+                <!--End off row-->
+            </div>
+            <!--End off container-->
+        </section>
+        <!--End off Screen01 Area Section -->
+
+        <!--App Download Section-->
+        <section id="download" class="download m-top-100">
+            <div class="download_overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="main_download ">
+                        <div class="col-md-6">
+                            <div class="download_item roomy-100">
+                                <h2 class="text-white">Vous souhaitez tester l'application</h2>
+                                <h5 class="text-white m-top-20">Nous organisons une phase de test auprès d'utilisatrices bénévoles afin de tester l'ensemble des fonctionnalités 
+                                    et améliorer l'application grâce aux retours des utilisatrices.</br>
+                                    Vous souhaitez participer à cette phase de test?</br>
+                                    Rien de plus simple, il suffit de nous contacter à l'adresse suivante : </br>
+                                    <span style="font-size: 1.25rem;color: #A57FDC;"><a href="mailTo:monendo@gmail.com?subject=Participer aux tests de Mon Endo"> monendo@gmail.com </a></span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="download_item m-top-70">
+                                <img class="app_right" src="assets/images/monEndoDown.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- scroll up-->
+        <div class="scrollup">
+            <a href="#"><i class="fa fa-chevron-up"></i></a>
+        </div><!-- End off scroll up -->
+
+
+        <footer id="footer" class="footer bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main_footer text-center p-top-40 p-bottom-30">
+                            <p class="wow fadeInRight" data-wow-duration="1s">
+                                Made with
+                                <i class="fa fa-heart"></i>
+                                by
+                                BenLefevre
+                                2021. All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    </div>
+
+    <!-- JS includes -->
+
+    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.collapse.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+
+
+
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
