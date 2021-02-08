@@ -100,6 +100,11 @@ section { overflow: hidden; }
     padding-bottom: 40px;
 }
 
+.roomy-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 /*text color*/
 
@@ -745,7 +750,7 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 .head_title{
-    padding-bottom: 7.143rem;
+    padding-bottom: 4.143rem;
     overflow: hidden;
 }
 .head_title h2{
@@ -925,8 +930,8 @@ Home Section style
 }
 .main_home{
     overflow: hidden;
-    padding-top: 200px;
-    padding-bottom: 230px;
+    padding-top: 130px;
+    padding-bottom: 200px;
 }
 .home_text h1{
     font-family: 'Ubuntu', sans-serif;
